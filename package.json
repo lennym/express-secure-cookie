@@ -1,0 +1,25 @@
+{
+  "name": "express-secure-cookie",
+  "version": "1.0.0",
+  "description": "Automatically detect whether to set secure flag in express res.cookie dependent on request protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lennym/express-secure-cookie.git"
+  },
+  "keywords": [
+    "express",
+    "cookie",
+    "https",
+    "secure"
+  ],
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennym/express-secure-cookie/issues"
+  },
+  "homepage": "https://github.com/lennym/express-secure-cookie"
+}
