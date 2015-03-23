@@ -1,6 +1,6 @@
 {
   "name": "express-secure-cookie",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated replacement for express' `res.cookie` method",
   "main": "index.js",
   "scripts": {
