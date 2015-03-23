@@ -1,7 +1,7 @@
 {
   "name": "express-secure-cookie",
   "version": "1.0.0",
-  "description": "Automatically detect whether to set secure flag in express res.cookie dependent on request protocol",
+  "description": "An opinionated replacement for express' `res.cookie` method",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

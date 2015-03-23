@@ -1,5 +1,8 @@
 # express-secure-cookie
-Automatically detect whether to set secure flag in express `res.cookie` dependent on request protocol
+
+An opinionated replacement for express' `res.cookie` method.
+
+Automatically detects whether to set `secure` flag dependent on request protocol. Defaults `httpOnly` to true.
 
 ## Install
 
@@ -18,7 +21,11 @@ app.get('*', function (req, res) {
     res.cookie('foo', 'bar');
     // this cookie will now have its `secure` flag set appropriately for
     // the protocol of the inbound request - i.e. http/s
+    // the cookie will also have its `httpOnly` flag set to true meaning
+    // it cannot be read by `document.cookies`
 });
+
+...
 
 app.listen(8080);
 ```

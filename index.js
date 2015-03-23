@@ -5,6 +5,9 @@ module.exports = function (req, res, next) {
         if (typeof options.secure === 'undefined') {
             options.secure = (req.protocol === 'https');
         }
+        if (typeof options.httpOnly === 'undefined') {
+            options.httpOnly = true;
+        }
         _cookie(name, value, options);
     };
 };
